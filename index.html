@@ -5,29 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Find a Movie</title>
+    <link rel='stylesheet' type='text/css' media="screen" href="main.css"
   </head>
-
   <body>
     <h1> Find a Movie </h1>
-    <table>
-      <tbody>
+    <table id="myTable">
+      <thead>
         <tr>
           <th>Poster</th>
           <th>Title</th>
           <th>Director</th>
           <th>Rating</th>
-          <th>Description</th>
+          <th>Plot</th>
         </tr>
-        <tr>
-          <td>
-            <img src="https://m.media-amazon.com/images/M/MV5BZWFhYjg4NTEtY2IzMS00YTc2LTg1NGUtMTEzNDBlZDIxZTk3XkEyXkFqcGdeQXVyMTMxMTY0OTQ@._V1_SX300.jpg">
-          </td>
-          <td>Title</td>
-          <td>Director</td>
-          <td>Rating</td>
-          <td>Description</td>
-        </tr>
+      </thead>
+      <tbody id="myTableBody">
+        <!-- More TR's here as needed -->
       </tbody>
     </table>
   </body>
+
+  <script type="text/javascript" src="declare.js">
+    movies.forEach(function(listItem){
+    addRow(listItem.poster, listItem.title, listItem.director, listItem.rating, listItem.plot)
+});
+  </script>
 </html>
