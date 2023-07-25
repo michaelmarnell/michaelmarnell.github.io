@@ -14,7 +14,7 @@ var movies = [
         "plot": "An upstate Michigan lawyer defends a soldier who claims he killed an innkeeper due to temporary insanity after the victim raped his wife. What is the truth, and will he win his case?"
     },
     {
-        "poster": "https://m.media-amazon.com/images/M/MV5BNTkzZTZjOTgtYjgzMS00MTdkLWE2NDAtNTVmM2I3MGYyM2I0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2QwMmQxOGYtMGFjNy00ODdhLTlkOGYtYjNjNjgwY2UyZTI0XkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_QL75_UX190_CR0,3,190,281_.jpg",
         "title": "Sunday Bloody Sunday",
         "director": "John Schlesinger",
         "rating": "7.0",
