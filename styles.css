@@ -22,3 +22,7 @@ body {
     height: 10px;
     line-height: 28px;
   }
+  
+img {
+    max-height: 3em;
+  }
