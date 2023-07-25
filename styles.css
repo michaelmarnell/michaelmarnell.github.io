@@ -9,6 +9,7 @@ body {
   table {
     border-collapse: collapse;
     width: 80%;
+    align-self: center
   }
   th {
     background-color: rgb(235, 231, 216);
