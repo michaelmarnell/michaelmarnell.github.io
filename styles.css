@@ -14,7 +14,7 @@ body {
   }
   th {
     background-color: rgb(235, 231, 216);
-    height: 15px;
+    height: 30px;
     line-height: 14px
     
   }
@@ -22,8 +22,10 @@ body {
     background-color: white;
     height: 10px;
     line-height: 28px;
+    text-align: center;
   }
   
 img {
     max-height: 15em;
+    max-width: 12em;
   }
