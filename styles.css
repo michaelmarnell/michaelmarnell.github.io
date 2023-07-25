@@ -4,13 +4,18 @@ body {
   table, th, td {
     border: 1px solid;
     text-align: left;
+    
   }
   table {
     border-collapse: collapse;
+    width: 80%;
   }
   th {
     background-color: rgb(235, 231, 216);
+    height: 100px;
+    
   }
   td {
     background-color: white;
+    height: 100px;
   }
