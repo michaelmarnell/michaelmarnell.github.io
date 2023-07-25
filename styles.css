@@ -12,10 +12,10 @@ body {
   }
   th {
     background-color: rgb(235, 231, 216);
-    height: 100px;
+    height: 10px;
     
   }
   td {
     background-color: white;
-    height: 100px;
+    height: 10px;
   }
