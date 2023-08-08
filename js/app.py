@@ -43,13 +43,13 @@ dictionary = movies = [
 ]
 print(dictionary)
 
-#import json
-#import sys
+import json
+import sys
 
-#sys.stdout = open('declare.js','w')
+sys.stdout = open('declare.js','w')
 
-#jsonobj = json.dumps(dictionary)
+jsonobj = json.dumps(dictionary)
 
-#var jsonstr = [{x: y: val: }]
+var jsonstr = [{x: y: val: }]
 
-#print("var jsonstr = '{}' ".format(jsonobj) )
+print("var jsonstr = '{}' ".format(jsonobj) )
