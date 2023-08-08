@@ -23,7 +23,7 @@ $.ajax({
 var movies = [];
 
 for (i = 0; i < 10; i++) {
-    movies.push(data[indices[i]])
+    movies.push(moviedata[indices[i]])
 };
 
 function addRow(image, title, meta, desc, link)
