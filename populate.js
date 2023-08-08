@@ -4,7 +4,7 @@ const randomIntArrayInRange = (min, max, n = 1) =>
     () => Math.floor(Math.random() * (max - min + 1)) + min
   );
 
-var indices = randomIntArrayInRange(0,20,10); // [23, 233, 255, 9831, 12, 5, 298, 444, 2088, 1678] 2702
+var indices = randomIntArrayInRange(0,2702,10); // [23, 233, 255, 9831, 12, 5, 298, 444, 2088, 1678] 2702
 
 // Now need to use the indices to make a 10 long list of movies
 
