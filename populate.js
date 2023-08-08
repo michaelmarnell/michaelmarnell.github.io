@@ -13,7 +13,7 @@ var mydata = JSON.parse(moviedata);
 var movies = [];
 
 for (i = 0; i < 10; i++) {
-    sampleItems.push(mydata[indices[i]])
+    movies.push(mydata[indices[i]])
 }
 
 function addRow(image, title, meta, desc, link)
