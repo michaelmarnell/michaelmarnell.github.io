@@ -49,7 +49,3 @@ import sys
 sys.stdout = open('declare.js','w')
 
 jsonobj = json.dumps(dictionary)
-
-var jsonstr = [{x: y: val: }]
-
-print("var jsonstr = '{}' ".format(jsonobj) )
