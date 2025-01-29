@@ -1,3 +1,8 @@
+// Default view: Show content for Tab 1
+document.getElementById("venue-tab").style.display = 'block';
+document.getElementById("rsvp-tab").style.display = 'none';
+document.getElementById("about-tab").style.display = 'none';
+
 // JavaScript to handle tab switching functionality
 document.getElementById("venue-tab").addEventListener("click", function() {
     showTab("venue-content");
