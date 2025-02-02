@@ -44,12 +44,12 @@ h2 {
 
 .content-overlay {
     position: absolute;
-    top: 50%; /* Position the overlay in the middle of the screen */
-    left: 25%;
-    width: 50%;
+    top: 0; /* Position the overlay in the middle of the screen */
+    left: 12.5%;
+    width: 75%;
     height: 100%; /* 2/3 of the screen */
     background-color: white;
-    transform: translateY(-50%); /* This centers the overlay vertically */
+    /* transform: translateY(-50%); This centers the overlay vertically */
     z-index: 1; /* Ensure the overlay is above the background image */
 }
 
@@ -61,8 +61,8 @@ h2 {
 /* Tab styling */
 .tabs {
     display: flex;
-    width: 50%;
-    left: 25%;
+    width: 75%;
+    left: 12.5%;
     position: relative;
     justify-content: space-around;
     background-color: #5d8659;
@@ -87,6 +87,8 @@ h2 {
 /* Content styling */
 .content {
     position: relative;
+    width: 75%;
+    left: 12.5%;
     display: none;
     padding: 20px;
     text-align: center;
